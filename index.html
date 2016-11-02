@@ -44,56 +44,30 @@
 		<div class="reveal">
 			<!-- Any section element inside of this container is a slide -->
 			<div class="slides">
-
+				<!-- slide 0 -->
                 <section>
-                    <h4>Bootstrap-based slide layout</h4>
-                    <div class="row" align="middle">
-                        <div class="col-xs-6">
-                            <p>Column 1</p>
-                        </div>
-                        <div class="col-xs-6">
-                            <p>Column 2</p>
-                        </div>
-                    </div>
-                    <h4>A list that builds</h4>
-                    <ul>
-                        <li class="fragment">Item #1</li>
-                        <li class="fragment">Item #2</li>
-                    </ul>
-                    <h4>Math!</h4>
-                    <div class="row">
-                        When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are $$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.$$
-                    </div>
-
+				<html-include src="slides/00-bootstrap-example/index.html"></html-include>
                 </section>
 
+				<!-- slide 0 -->
                 <section>
-                    <h4>Image embed</h4>
-                    <div class="row" align="middle">
-                        <img class="img-responsive" height="50%" width="50%" data-src="presentation-data/img/test-image.png" />
-                    </div>
+				<html-include src="slides/01-image-example/index.html"></html-include>
                 </section>
 
+				<!-- slide 0 -->
                 <section>
-                    <h4>Video embed</h4>
-                    <div class="row" align="middle">
-                        <video data-autoplay mute controls height="60%" width="60%">
-                            <source data-src="presentation-data/video/test-video.mp4" />
-                        </video>
-                    </div>
+				<html-include src="slides/02-video-example/index.html"></html-include>
                 </section>
 
+				<!-- slide 0 -->
                 <section>
-                    <h4>D3 embed</h4>
-                    <button align="middle" onclick="transition()">Update</button>
-                    <div id="d3embed"></div>
+				<html-include src="slides/03-d3-example/index.html"></html-include>
                 </section>
 
+				<!-- slide 0 -->
 				<section>
-					<h4>Protein Viewer</h4>
-					<div id=viewer></div>
+				<html-include src="slides/04-protein-viewer-example/index.html"></html-include>
 				</section>
-
 			</div>
 
 		</div>
@@ -122,7 +96,6 @@
                     config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
                 },
 */
-
 				// Optional reveal.js plugins
 				dependencies: [
 					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -135,10 +108,10 @@
                     { src: 'presentation-data/lib/jquery-1.11.2.min.js' } ,
                     { src: 'presentation-data/lib/bootstrap.min.js' } ,
                     { src: 'presentation-data/lib/d3.min.js' },
-                    { src: 'presentation-data/js/test-stream.js'},
 					{ src: 'presentation-data/lib/bio-pv.min.js'},
+					{ src: 'presentation-data/lib/html-include.min.js'},
+					{ src: 'presentation-data/js/test-stream.js'},
 					{ src: 'presentation-data/js/pv-example.js'}
-
 				]
 			});
 
