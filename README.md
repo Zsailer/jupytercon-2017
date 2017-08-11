@@ -1,30 +1,47 @@
-# reveal-presentation-template
-html and basic directory structure template for (relatively) easily creating reveal.js slideshows with all dependencies locally so you do not need an internet connection while presenting.
+# How Jupyter makes experimental and computational collaborations easy
 
-##Basic installation:
-1. Clone the reveal-presentation-template repository
-    
-    ```
-    git clone https://github.com/harmslab/reveal-presentation-template
-    ```
-2. Grab reveal as submodule:
-    
-    ```
-    cd reveal-presentation-template
-    git submodule init
-    git submodule update
-    ```
-3. If you want to run on local server, follow Reveal's instructions for node and grunt [here](https://github.com/hakimel/reveal.js/) 
-4. If you want mathjax locally, download the latest release (https://github.com/mathjax/MathJax/archive/master.zip) and unzip it into the reveal.js base directory.  This should create a directory called `MathJax-master`.
+This repository contains the slides and materials for my talk at JupyterCon 2017.
 
-##To edit: 
- * Create slides in index.html
- * Add contents (images, videos, js, etc.) to the presentation-data directory
 
-##To run:
-Type `grunt serve` in the reveal.js/ directory.
+## Slides
 
-##Notes:
-The `node_modules` and `MathJax-master` directories are quite large.  I have them stored in a different location and then symlink them into each presentation. 
+If you have internet connection, you can view the slides online here: [zsailer.github.io/jupytercon-2017]
 
-To add one of our Viewer-apps to a slide, checkout of this [example](https://github.com/harmslab/reveal-presentation-template/tree/viewer-example).
+To run these slides locally, clone the repo and uses `npm` to install and serve.
+
+```
+git clone https://github.com/Zsailer/jupytercon-2017
+cd jupytercon-2017
+git submodule update --init
+npm install
+npm start
+```
+
+## Abstract
+
+### Who is this presentation for?
+
+Principal investigators, members of computational research groups, and graduate students
+
+### Prerequisite knowledge
+
+A basic knowledge of Python and the Jupyter Notebook
+
+### What you'll learn
+
+* Learn how to create simple-to-repeat, accessible notebooks for research collaborators, how to deploy JupyterHub on a local server for a small research group, and how to write simple graphic interfaces using ipywidgets that can help collaborators navigate your analyses
+* Understand best practices for publishing notebooks as supplements to research publications
+
+### Description
+
+Collaboration between computational and experimental research groups is foundational to science. The most effective collaboration involves experimentalists gathering data, computational scientists developing code to analyze that data, and the two groups working together to interpret the results. However, computational scientists recognize this can be challenging, as their experimental collaborators do not find staring at code quite as helpful.
+
+If you want a headache-free collaboration between experimental and computational research groups, you need to get code out of the way. How do you develop simple-to-repeat, accessible programs that make your collaborators happy?
+
+Zach Sailer highlights various ways in which the Jupyter “sphere” has improved collaboration with experimental groups and shares a real-world example of working together with experimentalists in Australia to tackle the problem of predicting drug resistance in unknown malarial strains. Zach explains how the team used JupyterHub to host a private, centralized server that was shared with their collaborators, making uploading and downloading data and analyses simple and secure, how they used the Jupyter Notebook and ipywidgets to make their computational analyses more accessible, interactive, and reproducible for their collaborators, and how they openly shared Jupyter notebooks upon publication, using external web services like GitHub and Binder.
+
+### About Me
+
+**Zach Sailer** (University of Oregon)
+
+Zach Sailer is graduate student at the Harms Lab at the University of Oregon, where he studies the mechanisms that shape protein evolution from a biophysical perspective. Previously, he was a core developer for the IPython/Jupyter team at Cal Poly San Luis Obispo. Zach has created and contributed to various scientific open source projects and is also a strong advocate for open science, working hard to promote and practice open science in all aspects of his research.
