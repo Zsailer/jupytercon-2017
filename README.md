@@ -45,3 +45,60 @@ Zach Sailer highlights various ways in which the Jupyter “sphere” has improv
 **Zach Sailer** (University of Oregon)
 
 Zach Sailer is graduate student at the Harms Lab at the University of Oregon, where he studies the mechanisms that shape protein evolution from a biophysical perspective. Previously, he was a core developer for the IPython/Jupyter team at Cal Poly San Luis Obispo. Zach has created and contributed to various scientific open source projects and is also a strong advocate for open science, working hard to promote and practice open science in all aspects of his research.
+
+
+## Talk outline
+
+1. Title
+1. Acknowledgements
+1. About me
+    1. Who am I?
+    1. Research description
+    1. What does my day-to-day look like?
+1. The problem: lower the Code barrier.
+1. Analogy: looking at plates/lab notebook.
+1. Outline talk
+1. Part 1: Prepublication (local collaboration)
+    1. Jupyter Notebook
+        1. what: What is the notebook?
+        1. why: Why do we (scientists) like it?
+        1. how:
+            * Stages of collaboration.
+            * Two types of notebooks.
+            * Exploration (nonlinear).
+            * Cleaning (linear, one-click go).
+    1. ipywidgets
+        1. What
+        1. why:
+            * widgets get code out of the way,
+            * explore data graphically,
+            * fit data interactively.
+    1. Jupyterhub
+        1. What: Globe picture
+        1. Why: share notebooks/data/etc.
+        1. How:
+1. Post publication (community collaboration)
+    1. Define reproducibility and open science
+    1. Common myths about reproducibility
+        * it takes too long
+        * can't find sustainable host
+        * installation will be too challenging
+    1. Github
+        1. What: Publicly host analysis/Renders notebooks
+        1. Why:
+        1. How:
+    1. Binder
+        1. What:
+        1. Why:
+        1. How:
+    1. Examples:
+        * Point to epistasis paper.
+        * point to public repo.
+1. Again, no excuse for non-reproducible analysis.
+    * it does not take long
+    *
+1. Summary
+1. Things to look forward to...
+    1. Real-time collaboration
+    1.
+1. Thanks

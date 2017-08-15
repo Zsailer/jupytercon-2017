@@ -6,35 +6,31 @@
 
         <!-- CUSTOMIZE METADATA HERE -->
 		<title>Presentation</title>
-		<meta name="description" content="An html slideshow">
-		<meta name="author" content="Michael J. Harms">
-
-
+		<meta name="description" content="JupyterCon 2017">
+		<meta name="author" content="Zachary R. Sailer">
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 
 		<link rel="stylesheet" href="reveal/css/reveal.css">
-		<link rel="stylesheet" href="reveal/css/theme/white.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
+		<!-- Printing and PDF exports
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
+		</script>-->
 
         <!-- Add boostrap css (not included in reveal.js)-->
         <link rel="stylesheet" href="presentation-data/css/bootstrap.min.css">
         <!-- CUSTOMIZE STYLESHEET HERE -->
-		<link rel="stylesheet" href="presentation-data/css/override.css">
+		<link rel="stylesheet" href="presentation-data/css/jupyter.css">
 
 	</head>
 
@@ -44,9 +40,82 @@
 		<div class="reveal">
 			<!-- Any section element inside of this container is a slide -->
 			<div class="slides">
-				<!-- slide 0 -->
+				<!--  -->
                 <section>
-				<html-include src="slides/slide0/index.html"></html-include>
+				<html-include src="slides/title/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
+				<html-include src="slides/acknowledgements/index.html"></html-include>
+                </section>
+
+
+				<!-- Transition slide -->
+				<section>
+				<h1>Who am I?</h1>
+                </section>
+
+				<!--  -->
+                <section class="jupyter-light">
+				<html-include src="slides/about-me/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
+				<html-include src="slides/about-my-research/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
+				<html-include src="slides/about-me-how/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
+				<html-include src="slides/my-day-to-day/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
+				<html-include src="slides/who-this-talk-targets/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
+				<html-include src="slides/the-problem/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
+				<html-include src="slides/jupyter-orbit/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
+				<html-include src="slides/notebook-intro/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
+				<html-include src="slides/notebook-lifecycle-of-collab/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
+				<html-include src="slides/notebook-two-types/index.html"></html-include>
+                </section>
+
+
+
+				<!--  -->
+                <section>
+				<html-include src="slides/jupyterhub-what/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
+				<html-include src="slides/jupyterhub-why/index.html"></html-include>
                 </section>
 			</div>
 		</div>
@@ -68,13 +137,6 @@
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-/* NOTE:: Uncomment if using local MathJax (rather than CDN)
-                // Add math
-                math: {
-                    mathjax: 'MathJax-master/MathJax.js',
-                    config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
-                },
-*/
 				// Optional reveal.js plugins
 				dependencies: [
 					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
