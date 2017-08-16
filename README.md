@@ -55,28 +55,43 @@ Zach Sailer is graduate student at the Harms Lab at the University of Oregon, wh
     1. Who am I?
     1. Research description
     1. What does my day-to-day look like?
-1. The problem: lower the Code barrier.
+1. Who are you?
+    1. Computational group working with non computational people
+    1. Technical side of talk speaks to computational people
+    1. Usage side speaks to everyone -- evangelize to your computational collabs.
+1. The problem: lower the classic computational struggles.
+    1. Setting up environments
+    1. Clean explanation, not docstrings/comments
+    1. Highlight and simplify the results, not the process. (I find code beautiful;
+        my collaborators do not.)
 1. Analogy: looking at plates/lab notebook.
+1. Explore how Jupyter can be used in your collaboration.
 1. Outline talk
 1. Part 1: Prepublication (local collaboration)
     1. Jupyter Notebook
         1. what: What is the notebook?
         1. why: Why do we (scientists) like it?
+            * Low barrier to noncomputational collaborators
+            *
         1. how:
-            * Stages of collaboration.
-            * Two types of notebooks.
-            * Exploration (nonlinear).
-            * Cleaning (linear, one-click go).
+            * Allows for exploration (nonlinear computation)
+            * Simple to clean up.
+            * Ignore code. ~ Connect to analogy with experimental notebooks.
     1. ipywidgets
-        1. What
-        1. why:
-            * widgets get code out of the way,
-            * explore data graphically,
-            * fit data interactively.
+        1. what :
+            * interactive frontend widgets in the notebook with
+            callbacks to Python callback.
+            * Not an extensive look at ipywidgets, just what I use them for regularly.
+        1. why :
+            * for computationalist, easily fit data.
+            * for experimentalist, get code out of the way.
     1. Jupyterhub
         1. What: Globe picture
-        1. Why: share notebooks/data/etc.
+        1. Why:
+            * share notebooks/data/etc.
+            * control environment for non computational collabs.
         1. How:
+            * Resources ...
 1. Post publication (community collaboration)
     1. Define reproducibility and open science
     1. Common myths about reproducibility
@@ -84,13 +99,17 @@ Zach Sailer is graduate student at the Harms Lab at the University of Oregon, wh
         * can't find sustainable host
         * installation will be too challenging
     1. Github
-        1. What: Publicly host analysis/Renders notebooks
-        1. Why:
-        1. How:
+        1. What: Publicly host analysis/Renders notebooks.
+        1. Why: Open science and reproducibility.
+        1. How: See later slide
+    1. NBViewer
+        1. What: statically render notebooks
+        1. just point to URL or github repo.
+        1.
     1. Binder
-        1. What:
-        1. Why:
-        1. How:
+        1. What: Publicly host executable jupyter notebooks!!!
+        1. Why: Open science and reproducibility.
+        1. How: See later slide
     1. Examples:
         * Point to epistasis paper.
         * point to public repo.
@@ -100,5 +119,5 @@ Zach Sailer is graduate student at the Harms Lab at the University of Oregon, wh
 1. Summary
 1. Things to look forward to...
     1. Real-time collaboration
-    1.
+    1. JupyterLab.
 1. Thanks
