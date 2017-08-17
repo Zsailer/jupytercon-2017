@@ -105,14 +105,10 @@ Zach Sailer is graduate student at the Harms Lab at the University of Oregon, wh
     1. NBViewer
         1. What: statically render notebooks
         1. just point to URL or github repo.
-        1.
     1. Binder
         1. What: Publicly host executable jupyter notebooks!!!
         1. Why: Open science and reproducibility.
         1. How: See later slide
-    1. Examples:
-        * Point to epistasis paper.
-        * point to public repo.
 1. Again, no excuse for non-reproducible analysis.
     * it does not take long
     *
