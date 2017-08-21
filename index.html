@@ -38,16 +38,18 @@
 
         <!-- CUSTOMIZE SLIDES HERE -->
 		<div class="reveal">
+
+			<!-- ====================== BETWEEN REVEAL AND SLIDES ====================== -->
+			<header class="left" style="position: absolute; left: 20px; top:10px; color:rgba(256,256,256,0.5); font-size:40px;"></header>
+			<header class="right" style="position: absolute; right: 10px;"></header>
+			<!-- ====================== BETWEEN REVEAL AND SLIDES ====================== -->
+
+
 			<!-- Any section element inside of this container is a slide -->
 			<div class="slides">
 				<!--  -->
                 <section>
 				<html-include src="slides/title/index.html"></html-include>
-                </section>
-
-				<!--  -->
-                <section>
-				<html-include src="slides/acknowledgements/index.html"></html-include>
                 </section>
 
 				<!-- Transition slide -->
@@ -77,6 +79,11 @@
 
 				<!--  -->
                 <section>
+				<html-include src="slides/acknowledgements/index.html"></html-include>
+                </section>
+
+				<!--  -->
+                <section>
 				<html-include src="slides/who-this-talk-targets/index.html"></html-include>
                 </section>
 
@@ -100,27 +107,60 @@
 				<html-include src="slides/the-goal/index.html"></html-include>
                 </section>
 
+				<!-- +++++++++++++++++ PART 1 +++++++++++++++++++++ -->
 				<!--  -->
-                <section>
+
+				<section>
+				<html-include src="slides/part-1/intro-1/index.html"></html-include>
+                </section>
+
+				<!--  -->
+				<section data-state="headleft1">
+				<style>.headleft1 header.left:after { content: "to a computationalist... "; }</style>
 				<html-include src="slides/part-1/notebook-coder/index.html"></html-include>
                 </section>
 
 				<!--  -->
                 <section data-background-video="slides/part-1/notebook-demo/notebook-creation.mp4">
-                </section>
+				<html-include src="slides/part-1/notebook-demo/index.html"></html-include>
+				</section>
 
 				<!--  -->
-                <section>
+				<section data-state="headleft2">
+				<style>.headleft2 header.left:after { content: "to a non-computationalist... "; }</style>
 				<html-include src="slides/part-1/notebook-noncoder/index.html"></html-include>
                 </section>
 
 				<!--  -->
-                <section>
+				<section>
+				<html-include src="slides/part-1/notebook-demo-noncoder/index.html"></html-include>
+				</section>
+
+				<!--  -->
+				<section data-state="headleft1">
+				<style>.headleft1 header.left:after { content: "to a computationalist... "; }</style>
+				<html-include src="slides/part-1/ipywidgets-coder/index.html"></html-include>
                 </section>
 
 				<!--  -->
-                <section>
-				<html-include src="slides/part-1/jupyterhub-what/index.html"></html-include>
+				<section>
+				<html-include src="slides/part-1/ipywidgets-demo-coder/index.html"></html-include>
+				</section>
+
+				<section data-state="headleft2">
+				<style>.headleft2 header.left:after { content: "to a non-computationalist... "; }</style>
+				<html-include src="slides/part-1/ipywidgets-noncoder/index.html"></html-include>
+                </section>
+
+				<!--  -->
+				<section>
+				<html-include src="slides/part-1/ipywidgets-demo-noncoder/index.html"></html-include>
+				</section>
+
+				<!--  -->
+				<section data-state="headleft1">
+				<style>.headleft1 header.left:after { content: "to a computationalist... "; }</style>
+				<html-include src="slides/part-1/jupyterhub-coder/index.html"></html-include>
                 </section>
 
 				<!--  -->
@@ -128,6 +168,11 @@
 				<html-include src="slides/part-1/jupyterhub-why/index.html"></html-include>
                 </section>
 
+
+				<section data-state="headleft2">
+				<style>.headleft2 header.left:after { content: "to a non-computationalist... "; }</style>
+				<html-include src="slides/part-1/jupyterhub-noncoder/index.html"></html-include>
+				</section>
 
 				<!-- +++++++++++++++++ PART 2 +++++++++++++++++++++ -->
 				<!--  -->
@@ -156,12 +201,8 @@
 				<html-include src="slides/part-2/nbviewer-intro/index.html"></html-include>
                 </section>
 
-				<section data-background="slides/part-2/nbviewer-intro/nbviewer-snapshot.png">
+				<section data-background-iframe="http://nbviewer.jupyter.org/" data-background-interactive>
 	          	</section>
-
-				<section>
-				<html-include src="slides/part-2/nbviewer-example/index.html"></html-include>
-                </section>
 
 				<section>
 				<html-include src="slides/part-2/nbviewer-supplement/index.html"></html-include>
@@ -171,9 +212,17 @@
 				<html-include src="slides/part-2/binder-intro/index.html"></html-include>
                 </section>
 
-				<section data-background="slides/part-2/binder-intro/binder.png">
+				<section data-background-color="white" data-background-iframe="https://beta.mybinder.org/" data-background-interactive>
+				<html-include src="slides/part-2/binder-demo/index.html"></html-include>
                 </section>
 
+				<section>
+				<html-include src="slides/part-2/conclusion/index.html"></html-include>
+                </section>
+
+				<section>
+				<html-include src="slides/part-2/final-demo/index.html"></html-include>
+                </section>
 			</div>
 		</div>
 
@@ -206,7 +255,8 @@
                     { src: 'presentation-data/lib/jquery-1.11.2.min.js' } ,
                     { src: 'presentation-data/lib/bootstrap.min.js' } ,
                     { src: 'presentation-data/lib/d3.min.js' },
-					{ src: 'presentation-data/lib/html-include.min.js'}
+					{ src: 'presentation-data/lib/html-include.min.js' }
+					//{ src: 'presentation-data/lib/notebook-security.js' }
 				]
 			});
 
