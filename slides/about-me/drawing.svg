@@ -11,13 +11,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="320.4769mm"
+   height="168.43102mm"
+   viewBox="0 0 1135.5481 596.80281"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="drawing.svg">
+   sodipodi:docname="drawing.svg"
+   inkscape:export-filename="/Users/Zsailer/Documents/Research/talks/jupytercon-2017/slides/about-me/timeline.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs4">
     <linearGradient
@@ -29,7 +32,6 @@
          style="stop-color:#08552b;stop-opacity:1;" />
     </linearGradient>
     <font
-       style="font-variant:normal;font-weight:400"
        vert-adv-y="90"
        vert-origin-y="90"
        vert-origin-x="45"
@@ -38,7 +40,8 @@
        horiz-origin-x="0"
        font-weight="400"
        font-variant="normal"
-       id="FontID0">
+       id="FontID0"
+       style="font-variant:normal;font-weight:400">
       <font-face
          id="font-face7"
          font-family="Droid Sans Mono" />
@@ -236,7 +239,6 @@
 
   </style>
     <font
-       style="font-variant:normal;font-weight:400"
        vert-adv-y="90"
        vert-origin-y="90"
        vert-origin-x="45"
@@ -245,7 +247,8 @@
        horiz-origin-x="0"
        font-weight="400"
        font-variant="normal"
-       id="FontID0-7">
+       id="FontID0-7"
+       style="font-variant:normal;font-weight:400">
       <font-face
          id="font-face7-0"
          font-family="Droid Sans Mono" />
@@ -451,15 +454,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.38549153"
-     inkscape:cx="330.44951"
-     inkscape:cy="467.02345"
+     inkscape:cx="638.46478"
+     inkscape:cy="258.03451"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-grids="false"
      inkscape:snap-to-guides="false"
      inkscape:snap-global="false"
-     showguides="false" />
+     showguides="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -468,14 +475,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(305.42118,-246.57045)">
     <g
        id="g4393"
        transform="matrix(0.71207779,0,0,0.71207779,133.35617,190.31257)">
@@ -499,7 +507,7 @@
     <g
        style="fill-rule:evenodd"
        id="g4722"
-       transform="translate(-1580.8975,532.64594)">
+       transform="translate(-1580.8975,540.64594)">
       <g
          style="fill-rule:evenodd"
          id="g4941"
@@ -583,7 +591,7 @@
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#6e6f71;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        id="path4250-9"
        cx="72.254662"
-       cy="518.58118"
+       cy="526.58118"
        r="13.666439" />
     <circle
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#6e6f71;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
@@ -608,7 +616,7 @@
        xml:space="preserve"
        id="flowRoot4273-8"
        style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#6e6f71;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="matrix(4.0559367,0,0,4.0559367,1335.2082,-894.03101)"><flowRegion
+       transform="matrix(4.0559367,0,0,4.0559367,1335.2082,-886.03101)"><flowRegion
          id="flowRegion4275-6"><rect
            id="rect4277-4"
            width="370.95496"
@@ -617,7 +625,7 @@
            y="338.98727"
            style="fill:#6e6f71;fill-opacity:1" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.25865173px;font-family:arial;-inkscape-font-specification:arial;text-align:end;text-anchor:end;fill:#6e6f71;fill-opacity:1"
-         id="flowPara4317-1">2009-2013</flowPara></flowRoot>    <flowRoot
+         id="flowPara4317-1">2012-2013</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4273-88"
        style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#6e6f71;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -630,5 +638,5 @@
            y="338.98727"
            style="fill:#6e6f71;fill-opacity:1" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.25865173px;font-family:arial;-inkscape-font-specification:arial;text-align:end;text-anchor:end;fill:#6e6f71;fill-opacity:1"
-         id="flowPara4317-17">2009-2013</flowPara></flowRoot>  </g>
+         id="flowPara4317-17">2013-now</flowPara></flowRoot>  </g>
 </svg>
